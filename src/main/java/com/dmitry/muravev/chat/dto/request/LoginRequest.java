@@ -14,11 +14,11 @@ import javax.validation.constraints.NotEmpty;
 @AllArgsConstructor
 public class LoginRequest {
 
-    @Schema(defaultValue = "NewUserLogin", required = true)
+    @Schema(example = "NewUserLogin", required = true)
     @NotEmpty
     private String login;
 
-    @Schema(defaultValue = "NewUserPassword_32131", required = true)
+    @Schema(example = "NewUserPassword_32131", required = true)
     @NotEmpty
     private String password;
 }
