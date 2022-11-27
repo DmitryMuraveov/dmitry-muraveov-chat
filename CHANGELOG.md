@@ -1,5 +1,5 @@
-##Chat version 1.0.0
-###Added environment variables:
+## Chat version 1.0.0
+### Added environment variables:
 - SERVICE_PORT - Порт на котором будет запущен сервис
 - DATABASE_URL - Адрес базы данных
 - DATABASE_USERNAME - Имя пользователя базы данных
